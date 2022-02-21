@@ -24,10 +24,11 @@
 
 <img src="https://assets.wordstream.com/s3fs-public/styles/simple_image/public/images/swot-analysis-header1.png?9qhkGEQVMX2Zv5QGkYamvDXW3t1aGWzC&itok=DBCeVBGl" height="400" width="800">
 ### Strengths
+
 - User Friendly.
 - Login and Log out.
 - Add Entries.
--Customers window.
+- Customers window.
 - Customer can Add,View or Exit from System.
 - Modular Based Programs.
 
