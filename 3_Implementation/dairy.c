@@ -55,7 +55,7 @@ int main()
 
         case 4:
 
-            printf("\n\n\t\tTHANK YOU FOR USING THE APPLICATION ");
+            printf("\n\n\t\tTHANK YOU FOR USING THIS APPLICATION ");
 
             exit(0);
 
@@ -79,13 +79,13 @@ int main()
 
 void addrecord( ){
     char choice;
-    printf("\n\n\t\t***************************\n");
+    printf("\n\n\t\t*************************\n");
 
     printf("\t\t* WELCOME TO THE ADD MENU *");
 
-    printf("\n\t\t***************************\n\n");
+    printf("\n\t\t*************************\n\n");
 
-    printf("\n\n\tENTER DATE OF YOUR RECORD:[yyyy-mm-dd]:");
+    printf("\n\n\tENTER YOUR RECORD DATE:[yyyy-mm-dd]:");
 
     scanf("%10s",r[n].date);
 
@@ -101,11 +101,11 @@ void addrecord( ){
 
     scanf("%20s",r[n].place);
 
-    printf("\n\tENTER DURATION:");
+    printf("\n\tENTER TIME PERIOD:");
 
     scanf("%20s",r[n].duration);
 
-    printf("\n\tNOTE:");
+    printf("\n\tMATTER:");
 
     scanf("%20s",r[n].note);
 
@@ -116,16 +116,16 @@ void addrecord( ){
 
 void viewrecord( ){
 
-    printf("\n\n\t\t***************************\n");
+    printf("\n\n\t\t***********************\n");
 
-    printf("\t\t* WELCOME TO THE VIEW MENU *");
+    printf("\t\t* WELCOME TO THE MAIN MENU *");
 
-    printf("\n\t\t***************************\n\n");
+    printf("\n\t\t*************************\n\n");
 
 int i;
     for(i=0;i<n;i++){
 
-        printf("\n********************");
+        printf("\n*****************");
         printf("\nRECORD %d :\n",(i+1));
 
         printf("\nDATE: %s",r[i].date);
@@ -136,16 +136,16 @@ int i;
 
         printf("\nMEETING AT: %s",r[i].place);
 
-        printf("\nDURATION: %s",r[i].duration);
+        printf("\nTIME PERIOD: %s",r[i].duration);
 
-        printf("\nNOTE: %s",r[i].note);
+        printf("\nMATTER: %s",r[i].note);
 
         printf("\n");
 
-        printf("\n********************");
+        printf("\n******************");
 
     }
-    printf("\nTHERE ARE %d RECORD IN YOUR DAIRY",n);
+    printf("\nTHERE ARE %d RECORDS IN THE DAIRY",n);
 }
 
 void searchrecord( ){
@@ -157,7 +157,7 @@ void searchrecord( ){
 
     printf("\n\t\t***************************\n\n");
 
-    printf("\n\n\tENTER DATE OF YOUR RECORD:[yyyy-mm-dd]:");
+    printf("\n\n\tENTER YOUR RECORD DATE:[yyyy-mm-dd]:");
     
     scanf("%s",da);
 
@@ -166,7 +166,7 @@ int i;
 
         if(strcmp(da,r[i].date)==0){
 
-        printf("\n********************");
+        printf("\n******************");
         printf("\nRECORD %d :\n",(i+1));
 
         printf("\nDATE: %s",r[i].date);
@@ -177,13 +177,13 @@ int i;
 
         printf("\nMEETING AT: %s",r[i].place);
 
-        printf("\nDURATION: %s",r[i].duration);
+        printf("\nTIME PERIOD: %s",r[i].duration);
 
-        printf("\nNOTE: %s",r[i].note);
+        printf("\nMATTER: %s",r[i].note);
 
         printf("\n");
 
-        printf("\n********************");
+        printf("\n******************");
         }
 
     }
