@@ -1,5 +1,7 @@
 # M1_Project_App
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d8120205c8da4de7baaaa52c831502e5)](https://app.codacy.com/gh/Varun-897643/M1_Projectgoal_App?utm_source=github.com&utm_medium=referral&utm_content=Varun-897643/M1_Projectgoal_App&utm_campaign=Badge_Grade_Settings)
+
 Personal Dairy Management System
 
 
